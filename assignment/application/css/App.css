@@ -1,5 +1,17 @@
-/* body {
+body {
   padding: 0px;
+}
+
+.btn-custom {
+  background-color: #ed3c3c;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.btn-custom:hover {
+  background-color: #c70039;
+  color: white;
 }
 
 #gallery {
@@ -24,13 +36,13 @@
   transform: scale(1.1);
 }
 
-#modelStyle {
+/* #modelStyle {
   border: 2px double #000;
   background: lightgrey;
   margin-left: inherit;
   padding: 15px;
   border-radius: 8px;
-}
+} */
 
 .card-header, .card-body {
   padding: 15px;
@@ -114,126 +126,5 @@ li a {
 }
 
 li a:hover {
-  background-color: #fff;
-} */
-
-body {
-  padding: 0px;
-  background-color: #f4f4f4;
-  font-family: 'Arial', sans-serif;
-}
-
-#gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding: 20px;
-}
-
-.gallery-item {
-  flex: 1 1 150px;
-}
-
-.thumbnail {
-  width: 150px;
-  height: auto;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.thumbnail:hover {
-  transform: scale(1.1);
-}
-
-#modelStyle {
-  border: 2px solid #ddd;
-  background: #fff;
-  padding: 15px;
-  border-radius: 8px;
-}
-
-.card-header, .card-body {
-  padding: 15px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-}
-
-.centre {
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-a.button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  text-decoration: none;
-  color: initial;
-}
-
-.image-container {
-  position: relative;
-  display: inline-block;
-}
-
-.image-container img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay-text {
-  position: absolute;
-  top: 30%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  background-color: #000;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 20px;
-  text-align: left;
-}
-
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.Bottom_Nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #fff;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #000;
+  background-color: #000000;
 }

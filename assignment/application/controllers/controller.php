@@ -10,12 +10,6 @@ class Controller {
 		$this->model = new Model();
 		$this->$pageURI();
 	}
-
-    function home()
-	{
-		$this->load->view('index');
-
-	}
 	function apiDeleteTable()
 	{
 		$data = $this->model->dbDeleteTable();
@@ -58,34 +52,14 @@ class Controller {
         echo $response['body'];
 	}  	
 	
-	
-	function apiGetJson()
-	{
-		$this->load->view('index');
-	}
-	
-	function apiLoadImage()
-	{
-	   $data = $this->model->dbGetBrand();
-	   // Note, the viewDrinks.php view being loaded here calls a new model
-	   // called modelDrinkDetails.php, which is not part of the Model class
-	   // It is a separate model illustrating that you can have many models
-	   $this->load->view('viewDrinks', $data);
-	}
-
 	function apicocacola()
 	{
 		$this->load->view('cocacola');	
-	}
+	} 
 	function index()
 	{
 		$this->load->view('index');	
-	}
-	function apiGetCokeData()
-	{
-		$data = $this->model->dbGetData();
-		echo json_encode($data);
-	}  	  	
+	}  	
 	
 }
 ?>    

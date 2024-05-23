@@ -21,9 +21,9 @@ var change=true;
 function changeCokeTexture(){
   change=!change;
     if (change==true)
-    document.getElementById('model__image1').setAttribute('url',"../x3d/maps/can_texture.jpg");
+    document.getElementById('model__image1').setAttribute('url',"../assignment/application/assets/x3d/maps/can_texture.jpg");
     else
-    document.getElementById('model__image1').setAttribute('url',"../x3d/maps/coke_zero_texture.jpg");
+    document.getElementById('model__image1').setAttribute('url',"../assignment/application/assets/x3d/maps/coke_zero_texture.jpg");
 
   }
 

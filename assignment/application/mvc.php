@@ -1,5 +1,5 @@
 <?php
-require 'views/load.php';
+require_once 'views/load.php';
 require 'models/model.php';
 require 'controllers/controller.php';
 $pageURI =$_SERVER['REQUEST_URI'];
